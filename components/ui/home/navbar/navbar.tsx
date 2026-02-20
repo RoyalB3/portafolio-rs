@@ -37,7 +37,7 @@ const NavBar = ({openNav}:NavProps) => {
             <div className="hidden lg:flex items-center space-x-10">
                 {NavLinks.map((link, index) => {
                     return <Link key={index} href={link.href} className='dark:text-white text-black 
-                    hover:text-yellow-500 dark:hover:text-yellow-200 
+                    hover:text-yellow-500 dark:hover:text-yellow-300 
                     font-semibold transition-all duration-200'>
                          <p>{link.name}</p>
                     </Link>
@@ -51,7 +51,7 @@ const NavBar = ({openNav}:NavProps) => {
                     text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer
                     group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 
                     hover:ring-offset-indigo-500 ease focus-outline-none">
-                    <span className='relative z-20 flex ites-center space-x-2 text-sm'>
+                    <span className='relative z-20 flex items-center space-x-2 text-sm'>
                         <Download className='w-4 h-4'/>
                         <span>Descargar CV</span>
                     </span>
