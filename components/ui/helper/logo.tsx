@@ -8,7 +8,7 @@ const Logo = () => {
         rounded-lg flex items-center justify-center flex-col">
             <CodeSquareIcon className='text-white w-6 h-6'/>
         </div>
-        <h1 className='sm:text-x1 hidden sm:block md:text-2x1
+        <h1 className='sm:text-xl hidden sm:block md:text-2xl
         text-blue-800 dark:text-blue-400  font-bold'>{"<Dev/>"}</h1>
     </div>
   )
