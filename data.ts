@@ -59,7 +59,7 @@ export const skillCategories = [
         ]
     },
     {
-        title: "Tools & Others",
+        title: "Herramientas y Otros",
         skills: [
             {name: "Git", icon: GitBranch},
             {name: "Azure", icon: Cloud},
