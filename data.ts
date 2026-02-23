@@ -5,15 +5,15 @@ import { FaGithub, FaLinkedin, FaLinkedinIn } from "react-icons/fa6";
 import { text } from "stream/consumers";
 
 export const stats = [
-    {label: "Años de Experiencia", value:"+3" },
+    {label: "Años de Experiencia", value:"+2" },
     {label: "Proyectos completados", value:"+15"},
     {label: "Commits levantados", value: "+500"},
-    {label: "Tazas de Café tomadas", value: "+10000"}
+    {label: "Tazas de Café tomadas", value: "+1000"}
 ];
 
 export const highlights = [
-    {icon: MapPin, text:"Viviendo en Maracay, Estado Aragua"},
-    {icon: Briefcase, text:"Disponible para trabajar remoto"},
+    {icon: MapPin, text:"Viviendo en Maracay, Estado Aragua, Venezuela"},
+    {icon: Briefcase, text:"Disponible para trabajar Remoto, Híbrido o Presencial."},
     {icon: GraduationCap, text:"Graduado en el Instituto Profesional Los Leones"},
     {icon: Coffee, text:"Motivado por el café y la curiosidad"}
 ];
