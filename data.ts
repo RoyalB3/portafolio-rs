@@ -1,4 +1,5 @@
-import { Briefcase, Coffee, GraduationCap, Mail, MapPin, Phone } from "lucide-react";
+import { Briefcase, Cloud, Code2, Coffee, Cpu, Database, GitBranch, Globe, GraduationCap, Layers, Layout, Mail, MapPin, Palette, Phone, Server, Terminal } from "lucide-react";
+import { title } from "process";
 import { Label } from "radix-ui";
 import { FaGithub, FaLinkedin, FaLinkedinIn } from "react-icons/fa6";
 import { text } from "stream/consumers";
@@ -29,9 +30,41 @@ export const contactInfo = [
     label: "Teléfono",
     value: "+58 424",
 }
-]
+];
 
 export const SocialLinks = [
     {icon: FaGithub, href:"https://github.com/RoyalB3", label:"GitHub"},
     {icon: FaLinkedinIn, href:"https://www.linkedin.com/in/richard-sequera-suarez-a17135280/", label:"LinkedIn"}
-]
+];  
+
+export const skillCategories = [
+    {
+        title: "FrontEnd",
+        skills: [
+            {name: "React", icon: Code2},
+            {name: "Next.Js", icon: Globe},
+            {name: "Typescript", icon: Terminal},
+            {name: "Tailwind CSS", icon: Palette},
+            {name: "vue.js", icon: Layout}
+        ],
+    },
+    {
+        title: "BackEnd",
+        skills: [
+            {name: "Node.js", icon: Server},
+            {name: "Express", icon: Layers},
+            {name: "Sql Server", icon: Database},
+            {name: "Oracle", icon: Database},
+            {name: "Rest APIs", icon: Cloud}
+        ]
+    },
+    {
+        title: "Tools & Others",
+        skills: [
+            {name: "Git", icon: GitBranch},
+            {name: "Azure", icon: Cloud},
+            {name: "Figma", icon: Palette},
+            {name: "CI/CD", icon: Cpu},
+        ]
+    }
+];
