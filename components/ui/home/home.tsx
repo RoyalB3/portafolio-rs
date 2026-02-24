@@ -4,6 +4,8 @@ import ThemeToggler from '../helper/themeToggler'
 import Hero from './hero/hero'
 import About from './about/about';
 import Skills from './skills/skills';
+import Project from './project/project';
+import Experience from './experience/experience';
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
         <Hero/>
         <About/>
         <Skills/>
+        <Project/>
+        <Experience/>
     </div>
   )
 }

@@ -11,6 +11,32 @@ export const stats = [
     {label: "Tazas de Café tomadas", value: "+1000"}
 ];
 
+export const projects = [
+    {
+        title: "Pastelería Dulce Kpricho",
+        description: "Página web para emprendimiento chileno, con inventario en tiempo real, guías de despacho, dashboard de administrador y control de usuarios con base de datos",  
+        image: "/images/dulce-kapricho.jpeg",
+        techStack: ["Asp.Net", "Sql", "Javascript", "PHP", "C#"],
+        demoUrl: "none",
+        gitHubUrl: "https://github.com/RoyalB3/web_pasteleria_ASP",
+    },
+    {
+        title: "ProfGrade App",
+        description: "Página web edúcativa para colegios y liceos, con dashboard de admin, controll de usuarios, BBDD, registro de horarios, asignación de tareas   ",  
+        image: "/images/profgrade.jpeg",
+        techStack: ["Asp.Net", "Sql", "Javascript","PHP", "C#"],
+        demoUrl: "none",
+        gitHubUrl: "https://github.com/RoyalB3/",
+    },
+    {
+        title: "ERP Fin700 Sonda",
+        description: "ERP versión 8 a nivel latinoamericano para manejos de Fico, Remuneraciones, Venteas, Logistica, etc",  
+        image: "/images/fin700.png",
+        techStack: [".Net", "React", "Typescript","Sql", "Python","Node.Js","Azure"],
+        demoUrl: "none",
+        gitHubUrl: "https://github.com/RoyalB3/",
+    },
+]
 export const highlights = [
     {icon: MapPin, text:"Viviendo en Maracay, Estado Aragua, Venezuela"},
     {icon: Briefcase, text:"Disponible para trabajar Remoto, Híbrido o Presencial."},
