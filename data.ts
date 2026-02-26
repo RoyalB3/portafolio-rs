@@ -43,6 +43,35 @@ export const highlights = [
     {icon: GraduationCap, text:"Graduado en el Instituto Profesional Los Leones"},
     {icon: Coffee, text:"Motivado por el café y la curiosidad"}
 ];
+export const experiences = [
+    {
+        type: "work",
+        title: "Desarrollador de Software Full-Stack",
+        company: "Sonda S.A",
+        period: "2024 - 2026",
+        description:
+            "Desarrallador del area de mantención y rrhh de la ERP fin 700, encargado de desarrollar app nuevas y mantención de códigos antiguos.",
+        technologies: ["React", ".Net", "Node.Js", "Sql Server", "Azure", "Typescript", "Python", "Next.Js", "Git"]
+    },
+    {
+        type: "work",
+        title: "Desarrollador de Software Full-Stack",
+        company: "Roda By Abastible",
+        period: "2024",
+        description:
+            "Desarrollador del area de automatizaciones, encargado de desarrollar aplicaciones web, web scrappin y apps nativas.",
+        technologies: ["React", ".Net", "Sql Server", "PowerAutomate", "Python", "Git"]
+    },
+    {
+        type: "study",
+        title: "Técnico Analista Programador",
+        company: "Ip Los Leones",
+        period: "2021-2024",
+        description:
+            "Técnico superior graduado cómo Analista Programador",
+        technologies: ["Base de Datos", "Lenguajes de la programación", "App Móviles", "Fundamentos", "Análisis de Datos"]
+    }
+];
 
 export const contactInfo = [
 {
